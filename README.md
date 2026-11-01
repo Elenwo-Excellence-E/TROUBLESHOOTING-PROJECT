@@ -21,6 +21,7 @@ The project covers six simulated help-desk tickets, from network connectivity an
 •Maintain supporting evidence and recovery safeguards.
 
 **Lab Environment**
+
 Windows 11 host
 
 Oracle VirtualBox

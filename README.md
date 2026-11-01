@@ -1,27 +1,26 @@
-IT Troubleshooting & Ticket Management
+**IT Troubleshooting & Ticket Management**
 
-Project 01 | IT Help Desk / Technical Support Portfolio
+Project IT Help Desk / Technical Support Portfolio
 
-Overview
+**Overview**
 
 A hands-on home-lab project demonstrating a structured approach to troubleshooting, incident documentation, service verification, and recovery using virtual machines.
 
 The project covers six simulated help-desk tickets, from network connectivity and account recovery to Linux storage analysis and web-server diagnostics.
 
-Objectives
+**Objectives**
 
-Practise systematic, evidence-based troubleshooting.
+•Practise systematic, evidence-based troubleshooting.
 
-Develop familiarity with Linux administration and networking tools.
+•Develop familiarity with Linux administration and networking tools.
 
-Verify system and service behaviour before making changes.
+•Verify system and service behaviour before making changes.
 
-Document incident findings, recovery steps, and limitations.
+•Document incident findings, recovery steps, and limitations.
 
-Maintain supporting evidence and recovery safeguards.
+•Maintain supporting evidence and recovery safeguards.
 
-Lab Environment
-
+**Lab Environment**
 Windows 11 host
 
 Oracle VirtualBox
@@ -32,99 +31,89 @@ Kali Linux
 
 Apache HTTP Server
 
-Tools and Commands
+**Tools and Commands**
 
-Area
-
-Tools
-
-Network diagnostics
+•Network diagnostics
 
 ping, nslookup, ip, Test-NetConnection
 
-Linux account recovery
+•Linux account recovery
 
 Recovery mode, root shell, account verification
 
-Network configuration
+•Network configuration
 
 ip addr, ip route
 
-Service diagnostics
+•Service diagnostics
 
 systemctl, ss, curl
 
-Storage analysis
+•Storage analysis
 
 df, du
 
-Logs and configuration
+•Logs and configuration
 
 journalctl, tail, apache2ctl configtest
 
-Incident Register
+**Incident Register**
 
-Ticket
-
-Scenario
-
-Outcome
-
-HD-001
+**HD-001**
 
 Internet connectivity investigation
 
 Reported problem not reproduced during tests
 
-HD-002
+**HD-002**
 
 Ubuntu password recovery
 
 Access restored and verified
 
-HD-003
+**HD-003**
 
 Network interface recovery
 
 Connectivity restored and tested
 
-HD-004
+**HD-004**
 
 Web service availability
 
 HTTP 200 OK confirmed from server and Kali client
 
-HD-005
+**HD-005**
 
 Disk space investigation
 
 No immediate storage-capacity emergency indicated
 
-HD-006
+**HD-006**
 
 Application and service health
 
 Apache running; configuration valid; HTTP 200 OK
 
-Troubleshooting Approach
+**Troubleshooting Approach**
 
 Each ticket follows a consistent workflow:
 
-Record the reported symptoms.
+I. Record the reported symptoms.
 
-Gather system and diagnostic evidence.
+II. Gather system and diagnostic evidence.
 
-Test the relevant network, service, or storage component.
+III. Test the relevant network, service, or storage component.
 
-Compare the results against expected behaviour.
+IV. Compare the results against expected behaviour.
 
-Apply corrective action only where justified.
+V. Apply corrective action only where justified.
 
-Verify recovery and document the outcome.
+VI. Verify recovery and document the outcome.
 
-Record unresolved questions and limitations.
+VII. Record unresolved questions and limitations.
 
-Evidence and Documentation
+**Evidence and Documentation**
 
 01-Evidence/ — Ticket-specific screenshots and diagnostic evidence.
 
@@ -134,7 +123,7 @@ Evidence and Documentation
 
 The project also includes a documented Ubuntu baseline and a VirtualBox recovery snapshot.
 
-Key Learning Outcomes
+**Key Learning Outcomes**
 
 Troubleshooting network connectivity and DNS resolution.
 
@@ -150,7 +139,7 @@ Reviewing service logs and validating Apache configuration.
 
 Recording evidence without assuming an unverified root cause.
 
-Scope and Limitations
+**Scope and Limitations**
 
 This project was completed in a controlled home lab using virtual machines. It is not production IT support experience.
 

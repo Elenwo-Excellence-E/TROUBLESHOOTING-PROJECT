@@ -1,4 +1,3 @@
-[README..md](https://github.com/user-attachments/files/34249171/README.md)
 IT Troubleshooting & Ticket Management
 
 Project 01 | IT Help Desk / Technical Support Portfolio

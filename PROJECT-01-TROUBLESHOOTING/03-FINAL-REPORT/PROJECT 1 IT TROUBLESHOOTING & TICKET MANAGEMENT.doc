@@ -1,0 +1,155 @@
+PROJECT 1: IT TROUBLESHOOTING & TICKET MANAGEMENT
+
+Portfolio Project Report
+
+Environment: Windows 11 host, VirtualBox, Ubuntu Server, and Kali Linux
+Project type: Practical home-lab simulation
+Focus areas: IT support, troubleshooting methodology, Linux administration, networking, service monitoring, and incident documentation
+
+1. Project Overview
+
+This project demonstrates a structured approach to investigating and documenting common IT support incidents in a controlled virtual lab environment.
+
+The objective was to practise gathering evidence, performing diagnostic tests, identifying what the evidence supported, documenting outcomes, and verifying recovery where applicable.
+
+Six incident tickets were developed to simulate help-desk scenarios.
+
+2. Lab Environment
+
+Windows 11 host operating system
+
+Oracle VirtualBox virtualization platform
+
+Ubuntu Server virtual machine
+
+Kali Linux virtual machine
+
+Apache HTTP Server
+
+Linux networking, service-management, logging, and storage utilities
+
+The work was performed in a home lab. The tickets represent simulated incidents, not production support cases.
+
+3. Troubleshooting Methodology
+
+The following workflow was used:
+
+Record the reported symptoms and define the scope.
+
+Inspect the relevant system or service.
+
+Run appropriate diagnostic commands.
+
+Capture and review the results.
+
+Compare observations with expected behaviour.
+
+Apply corrective action only when justified.
+
+Verify the outcome.
+
+Document the findings, limitations, and final status.
+
+A baseline file and a VirtualBox snapshot were also created to support controlled testing and recovery.
+
+4. Incident Summary
+
+HD-001 — Internet Connectivity Investigation
+
+Tools: ping, nslookup, PowerShell Test-NetConnection, and a browser.
+
+Connectivity, DNS resolution, TCP connectivity to port 443, and browser access tests succeeded during testing.
+
+Outcome: The reported issue was not reproduced. Its original cause was not established.
+
+HD-002 — Ubuntu Server Password Recovery
+
+Tools: Ubuntu recovery mode, root shell, and account verification commands.
+
+Recovery access was obtained, the cyberadmin password was reset, and normal login was subsequently verified.
+
+Outcome: Access was restored in the lab and post-recovery verification was performed.
+
+HD-003 — Network Interface Recovery
+
+Tools: ip -br addr, ip route, and ping.
+
+A controlled test temporarily disabled the enp0s3 interface. The interface was restored, and connectivity checks succeeded, including a ping to 1.1.1.1 and punchng.com.
+
+Outcome: Network connectivity was restored and verified in the lab.
+
+HD-004 — Web Service Availability
+
+Tools: systemctl, ss, and curl.
+
+Apache was active, port 80 was listening, and HTTP requests succeeded locally, through the server's 10.10.10.10 address, and from Kali Linux. The requests returned HTTP 200 OK.
+
+Outcome: The reported web-access problem was not reproduced during testing.
+
+HD-005 — Disk Space Investigation
+
+Tools: df -h, df -i, and du.
+
+The root filesystem was approximately 58% utilized, with about 4.0 GB available. Inode utilization was approximately 1% in the recorded check. The /var directory used approximately 814 MB, including 359 MB in /var/lib, 322 MB in /var/cache, and 123 MB in /var/log.
+
+Outcome: No immediate storage-capacity emergency was indicated. No files were deleted.
+
+HD-006 — Application and Service Health
+
+Tools: systemctl, journalctl, tail, apache2ctl configtest, and curl.
+
+Apache was active and enabled. The configuration test returned Syntax OK, and requests to 127.0.0.1 and 127.0.1.1 returned HTTP 200 OK. A hostname-related warning was observed.
+
+Outcome: No Apache outage was reproduced. The warning was documented without changing configuration.
+
+5. Skills Demonstrated
+
+Structured incident investigation and ticket documentation
+
+Basic network connectivity and DNS troubleshooting
+
+Linux account recovery and access verification
+
+Network interface and routing-table inspection
+
+HTTP service and listening-port verification
+
+Linux filesystem capacity and inode checks
+
+Service status, journal, and error-log analysis
+
+Configuration validation and post-test verification
+
+Evidence capture and safe change practices
+
+6. Key Lessons Learned
+
+Test connectivity in layers rather than assuming the cause.
+
+A running service does not automatically prove that every client can access it.
+
+Successful diagnostic tests should be recorded accurately without claiming an unverified fix.
+
+Disk usage should be measured before deleting files or clearing caches.
+
+Service logs and configuration tests provide useful evidence when diagnosing application issues.
+
+Recovery safeguards and verification reduce risk during controlled troubleshooting.
+
+7. Limitations and Scope
+
+This was a controlled home-lab project using virtual machines. It does not represent production-system administration or enterprise service-desk employment.
+
+Several simulated reports could not be reproduced by the tests performed. Their original causes therefore remain undetermined.
+
+8. Evidence and Supporting Documentation
+
+Supporting materials are organized by ticket under the project's evidence directory. These include terminal screenshots, diagnostic outputs, and ticket records.
+
+The supporting evidence should be reviewed alongside each ticket to verify the commands run and the outcomes recorded.
+
+9. Conclusion
+
+This project provided practical experience in following a repeatable troubleshooting process, using windows and Linux diagnostic tools, validating service behaviour, protecting system stability, and documenting evidence-based outcomes.
+
+It forms the first project in a broader IT support portfolio intended to demonstrate practical readiness for entry-level help-desk and technical-support opportunities.

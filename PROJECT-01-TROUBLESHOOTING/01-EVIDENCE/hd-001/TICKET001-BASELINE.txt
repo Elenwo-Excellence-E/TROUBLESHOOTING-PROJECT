@@ -1,0 +1,551 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261016131636
+Username: DESKTOP-JIT8IRR\HP
+RunAs User: DESKTOP-JIT8IRR\HP
+Configuration Name: 
+Machine: DESKTOP-JIT8IRR (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 9576
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\HP\Documents\IT-HELP-DESK-PORTFOLIO\PROJECT-01-TROUBLESHOOTING\01-EVIDENCE\TICKET001-BASELINE.txt
+
+Friday, October 16, 2026 1:16:36 PM
+
+
+Caption                                          :
+Description                                      :
+ElementName                                      :
+InstanceID                                       : {DF4F0BE1-CE
+                                                   B4-4F8D-B21F
+                                                   -C83D173267A
+                                                   D}
+CommunicationStatus                              :
+DetailedStatus                                   :
+HealthState                                      :
+InstallDate                                      :
+Name                                             : Wi-Fi
+OperatingStatus                                  :
+OperationalStatus                                :
+PrimaryStatus                                    :
+Status                                           : Up
+StatusDescriptions                               :
+AvailableRequestedStates                         :
+EnabledDefault                                   : 2
+EnabledState                                     : 5
+OtherEnabledState                                :
+RequestedState                                   : 12
+TimeOfLastStateChange                            :
+TransitioningToState                             : 12
+AdditionalAvailability                           :
+Availability                                     :
+CreationClassName                                : MSFT_NetAdap
+                                                   ter
+DeviceID                                         : {DF4F0BE1-CE
+                                                   B4-4F8D-B21F
+                                                   -C83D173267A
+                                                   D}
+ErrorCleared                                     :
+ErrorDescription                                 :
+IdentifyingDescriptions                          :
+LastErrorCode                                    :
+MaxQuiesceTime                                   :
+OtherIdentifyingInfo                             :
+PowerManagementCapabilities                      :
+PowerManagementSupported                         :
+PowerOnHours                                     :
+StatusInfo                                       :
+SystemCreationClassName                          : CIM_NetworkP
+                                                   ort
+SystemName                                       : DESKTOP-JIT8
+                                                   IRR
+TotalPowerOnHours                                :
+MaxSpeed                                         :
+OtherPortType                                    :
+PortType                                         :
+RequestedSpeed                                   :
+Speed                                            : 866700000
+UsageRestriction                                 :
+ActiveMaximumTransmissionUnit                    : 1500
+AutoSense                                        :
+FullDuplex                                       : False
+LinkTechnology                                   :
+NetworkAddresses                                 : {B46BFCF268C
+                                                   7}
+OtherLinkTechnology                              :
+OtherNetworkPortType                             :
+PermanentAddress                                 : B46BFCF268C7
+PortNumber                                       : 0
+SupportedMaximumTransmissionUnit                 :
+AdminLocked                                      : False
+ComponentID                                      : PCI\VEN_8086
+                                                   &DEV_24FD&SU
+                                                   BSYS_9010808
+                                                   6
+ConnectorPresent                                 : True
+DeviceName                                       : \Device\{DF4
+                                                   F0BE1-CEB4-4
+                                                   F8D-B21F-C83
+                                                   D173267AD}
+DeviceWakeUpEnable                               : False
+DriverDate                                       : 2020-06-24
+DriverDateData                                   : 132374304000
+                                                   000000
+DriverDescription                                : Intel(R)
+                                                   Dual Band
+                                                   Wireless-AC
+                                                   8265
+DriverMajorNdisVersion                           : 6
+DriverMinorNdisVersion                           : 60
+DriverName                                       : \SystemRoot\
+                                                   System32\dri
+                                                   vers\Netwtw0
+                                                   6.sys
+DriverProvider                                   : Intel
+DriverVersionString                              : 20.70.18.2
+EndPointInterface                                : False
+HardwareInterface                                : True
+Hidden                                           : False
+HigherLayerInterfaceIndices                      : {28}
+IMFilter                                         : False
+InterfaceAdminStatus                             : 1
+InterfaceDescription                             : Intel(R)
+                                                   Dual Band
+                                                   Wireless-AC
+                                                   8265
+InterfaceGuid                                    : {DF4F0BE1-CE
+                                                   B4-4F8D-B21F
+                                                   -C83D173267A
+                                                   D}
+InterfaceIndex                                   : 21
+InterfaceName                                    : wireless_327
+                                                   68
+InterfaceOperationalStatus                       : 1
+InterfaceType                                    : 71
+iSCSIInterface                                   : False
+LowerLayerInterfaceIndices                       :
+MajorDriverVersion                               : 18
+MediaConnectState                                : 1
+MediaDuplexState                                 : 1
+MinorDriverVersion                               : 2
+MtuSize                                          : 1500
+NdisMedium                                       : 16
+NdisPhysicalMedium                               : 9
+NetLuid                                          : 199852731022
+                                                   70464
+NetLuidIndex                                     : 32768
+NotUserRemovable                                 : False
+OperationalStatusDownDefaultPortNotAuthenticated : False
+OperationalStatusDownInterfacePaused             : False
+OperationalStatusDownLowPowerState               : False
+OperationalStatusDownMediaDisconnected           : False
+PnPDeviceID                                      : PCI\VEN_8086
+                                                   &DEV_24FD&SU
+                                                   BSYS_9010808
+                                                   6&REV_78\4&1
+                                                   5fec9b&0&00E
+                                                   1
+PromiscuousMode                                  : False
+ReceiveLinkSpeed                                 : 866700000
+State                                            : 2
+TransmitLinkSpeed                                : 866700000
+Virtual                                          : False
+VlanID                                           :
+WdmInterface                                     : False
+PSComputerName                                   :
+MacAddress                                       : B4-6B-FC-F2-
+                                                   68-C7
+LinkSpeed                                        : 866.7 Mbps
+MediaType                                        : Native
+                                                   802.11
+PhysicalMediaType                                : Native
+                                                   802.11
+AdminStatus                                      : Up
+MediaConnectionState                             : Connected
+DriverInformation                                : Driver Date
+                                                   2020-06-24
+                                                   Version
+                                                   20.70.18.2
+                                                   NDIS 6.60
+DriverFileName                                   : Netwtw06.sys
+NdisVersion                                      : 6.60
+ifOperStatus                                     : Up
+ifAlias                                          : Wi-Fi
+InterfaceAlias                                   : Wi-Fi
+ifIndex                                          : 21
+ifDesc                                           : Intel(R)
+                                                   Dual Band
+                                                   Wireless-AC
+                                                   8265
+ifName                                           : wireless_327
+                                                   68
+DriverVersion                                    : 20.70.18.2
+LinkLayerAddress                                 : B4-6B-FC-F2-
+                                                   68-C7
+
+
+Caption                                          :
+Description                                      :
+ElementName                                      :
+InstanceID                                       : {592F4ACF-8D
+                                                   EE-4143-899F
+                                                   -2FCC7F34FB3
+                                                   1}
+CommunicationStatus                              :
+DetailedStatus                                   :
+HealthState                                      :
+InstallDate                                      :
+Name                                             : Ethernet 2
+OperatingStatus                                  :
+OperationalStatus                                :
+PrimaryStatus                                    :
+Status                                           : Up
+StatusDescriptions                               :
+AvailableRequestedStates                         :
+EnabledDefault                                   : 2
+EnabledState                                     : 5
+OtherEnabledState                                :
+RequestedState                                   : 12
+TimeOfLastStateChange                            :
+TransitioningToState                             : 12
+AdditionalAvailability                           :
+Availability                                     :
+CreationClassName                                : MSFT_NetAdap
+                                                   ter
+DeviceID                                         : {592F4ACF-8D
+                                                   EE-4143-899F
+                                                   -2FCC7F34FB3
+                                                   1}
+ErrorCleared                                     :
+ErrorDescription                                 :
+IdentifyingDescriptions                          :
+LastErrorCode                                    :
+MaxQuiesceTime                                   :
+OtherIdentifyingInfo                             :
+PowerManagementCapabilities                      :
+PowerManagementSupported                         :
+PowerOnHours                                     :
+StatusInfo                                       :
+SystemCreationClassName                          : CIM_NetworkP
+                                                   ort
+SystemName                                       : DESKTOP-JIT8
+                                                   IRR
+TotalPowerOnHours                                :
+MaxSpeed                                         :
+OtherPortType                                    :
+PortType                                         :
+RequestedSpeed                                   :
+Speed                                            : 1000000000
+UsageRestriction                                 :
+ActiveMaximumTransmissionUnit                    : 1500
+AutoSense                                        :
+FullDuplex                                       : True
+LinkTechnology                                   :
+NetworkAddresses                                 : {0A002700000
+                                                   B}
+OtherLinkTechnology                              :
+OtherNetworkPortType                             :
+PermanentAddress                                 : 0A002700000B
+PortNumber                                       : 0
+SupportedMaximumTransmissionUnit                 :
+AdminLocked                                      : False
+ComponentID                                      : sun_vboxneta
+                                                   dp
+ConnectorPresent                                 : False
+DeviceName                                       : \Device\{592
+                                                   F4ACF-8DEE-4
+                                                   143-899F-2FC
+                                                   C7F34FB31}
+DeviceWakeUpEnable                               : False
+DriverDate                                       : 2026-04-18
+DriverDateData                                   : 134209440000
+                                                   000000
+DriverDescription                                : VirtualBox
+                                                   Host-Only
+                                                   Ethernet
+                                                   Adapter
+DriverMajorNdisVersion                           : 6
+DriverMinorNdisVersion                           : 30
+DriverName                                       : \SystemRoot\
+                                                   system32\DRI
+                                                   VERS\VBoxNet
+                                                   Adp6.sys
+DriverProvider                                   : Oracle
+                                                   Corporation
+DriverVersionString                              : 7.2.8.23730
+EndPointInterface                                : True
+HardwareInterface                                : False
+Hidden                                           : False
+HigherLayerInterfaceIndices                      : {22}
+IMFilter                                         : False
+InterfaceAdminStatus                             : 1
+InterfaceDescription                             : VirtualBox
+                                                   Host-Only
+                                                   Ethernet
+                                                   Adapter
+InterfaceGuid                                    : {592F4ACF-8D
+                                                   EE-4143-899F
+                                                   -2FCC7F34FB3
+                                                   1}
+InterfaceIndex                                   : 11
+InterfaceName                                    : ethernet_327
+                                                   74
+InterfaceOperationalStatus                       : 1
+InterfaceType                                    : 6
+iSCSIInterface                                   : False
+LowerLayerInterfaceIndices                       :
+MajorDriverVersion                               : 1
+MediaConnectState                                : 1
+MediaDuplexState                                 : 2
+MinorDriverVersion                               : 0
+MtuSize                                          : 1500
+NdisMedium                                       : 0
+NdisPhysicalMedium                               : 14
+NetLuid                                          : 168939971674
+                                                   1120
+NetLuidIndex                                     : 32774
+NotUserRemovable                                 : False
+OperationalStatusDownDefaultPortNotAuthenticated : False
+OperationalStatusDownInterfacePaused             : False
+OperationalStatusDownLowPowerState               : False
+OperationalStatusDownMediaDisconnected           : False
+PnPDeviceID                                      : ROOT\NET\000
+                                                   0
+PromiscuousMode                                  : False
+ReceiveLinkSpeed                                 : 1000000000
+State                                            : 2
+TransmitLinkSpeed                                : 1000000000
+Virtual                                          : True
+VlanID                                           :
+WdmInterface                                     : True
+PSComputerName                                   :
+MacAddress                                       : 0A-00-27-00-
+                                                   00-0B
+LinkSpeed                                        : 1 Gbps
+MediaType                                        : 802.3
+PhysicalMediaType                                : 802.3
+AdminStatus                                      : Up
+MediaConnectionState                             : Connected
+DriverInformation                                : Driver Date
+                                                   2026-04-18
+                                                   Version
+                                                   7.2.8.23730
+                                                   NDIS 6.30
+DriverFileName                                   : VBoxNetAdp6.
+                                                   sys
+NdisVersion                                      : 6.30
+ifOperStatus                                     : Up
+ifAlias                                          : Ethernet 2
+InterfaceAlias                                   : Ethernet 2
+ifIndex                                          : 11
+ifDesc                                           : VirtualBox
+                                                   Host-Only
+                                                   Ethernet
+                                                   Adapter
+ifName                                           : ethernet_327
+                                                   74
+DriverVersion                                    : 7.2.8.23730
+LinkLayerAddress                                 : 0A-00-27-00-
+                                                   00-0B
+
+
+Caption                                          :
+Description                                      :
+ElementName                                      :
+InstanceID                                       : {3EF5E0E4-0A
+                                                   1B-4E12-A6C9
+                                                   -61CF75078C4
+                                                   C}
+CommunicationStatus                              :
+DetailedStatus                                   :
+HealthState                                      :
+InstallDate                                      :
+Name                                             : Ethernet
+OperatingStatus                                  :
+OperationalStatus                                :
+PrimaryStatus                                    :
+Status                                           : Up
+StatusDescriptions                               :
+AvailableRequestedStates                         :
+EnabledDefault                                   : 2
+EnabledState                                     : 5
+OtherEnabledState                                :
+RequestedState                                   : 12
+TimeOfLastStateChange                            :
+TransitioningToState                             : 12
+AdditionalAvailability                           :
+Availability                                     :
+CreationClassName                                : MSFT_NetAdap
+                                                   ter
+DeviceID                                         : {3EF5E0E4-0A
+                                                   1B-4E12-A6C9
+                                                   -61CF75078C4
+                                                   C}
+ErrorCleared                                     :
+ErrorDescription                                 :
+IdentifyingDescriptions                          :
+LastErrorCode                                    :
+MaxQuiesceTime                                   :
+OtherIdentifyingInfo                             :
+PowerManagementCapabilities                      :
+PowerManagementSupported                         :
+PowerOnHours                                     :
+StatusInfo                                       :
+SystemCreationClassName                          : CIM_NetworkP
+                                                   ort
+SystemName                                       : DESKTOP-JIT8
+                                                   IRR
+TotalPowerOnHours                                :
+MaxSpeed                                         :
+OtherPortType                                    :
+PortType                                         :
+RequestedSpeed                                   :
+Speed                                            : 1000000000
+UsageRestriction                                 :
+ActiveMaximumTransmissionUnit                    : 1500
+AutoSense                                        :
+FullDuplex                                       : True
+LinkTechnology                                   :
+NetworkAddresses                                 : {0A002700000
+                                                   7}
+OtherLinkTechnology                              :
+OtherNetworkPortType                             :
+PermanentAddress                                 : 0A0027000007
+PortNumber                                       : 0
+SupportedMaximumTransmissionUnit                 :
+AdminLocked                                      : False
+ComponentID                                      : sun_vboxneta
+                                                   dp
+ConnectorPresent                                 : False
+DeviceName                                       : \Device\{3EF
+                                                   5E0E4-0A1B-4
+                                                   E12-A6C9-61C
+                                                   F75078C4C}
+DeviceWakeUpEnable                               : False
+DriverDate                                       : 2026-04-18
+DriverDateData                                   : 134209440000
+                                                   000000
+DriverDescription                                : VirtualBox
+                                                   Host-Only
+                                                   Ethernet
+                                                   Adapter
+DriverMajorNdisVersion                           : 6
+DriverMinorNdisVersion                           : 30
+DriverName                                       : \SystemRoot\
+                                                   system32\DRI
+                                                   VERS\VBoxNet
+                                                   Adp6.sys
+DriverProvider                                   : Oracle
+                                                   Corporation
+DriverVersionString                              : 7.2.8.23730
+EndPointInterface                                : True
+HardwareInterface                                : False
+Hidden                                           : False
+HigherLayerInterfaceIndices                      : {23}
+IMFilter                                         : False
+InterfaceAdminStatus                             : 1
+InterfaceDescription                             : VirtualBox
+                                                   Host-Only
+                                                   Ethernet
+                                                   Adapter #2
+InterfaceGuid                                    : {3EF5E0E4-0A
+                                                   1B-4E12-A6C9
+                                                   -61CF75078C4
+                                                   C}
+InterfaceIndex                                   : 7
+InterfaceName                                    : ethernet_327
+                                                   73
+InterfaceOperationalStatus                       : 1
+InterfaceType                                    : 6
+iSCSIInterface                                   : False
+LowerLayerInterfaceIndices                       :
+MajorDriverVersion                               : 1
+MediaConnectState                                : 1
+MediaDuplexState                                 : 2
+MinorDriverVersion                               : 0
+MtuSize                                          : 1500
+NdisMedium                                       : 0
+NdisPhysicalMedium                               : 14
+NetLuid                                          : 168939969996
+                                                   3904
+NetLuidIndex                                     : 32773
+NotUserRemovable                                 : False
+OperationalStatusDownDefaultPortNotAuthenticated : False
+OperationalStatusDownInterfacePaused             : False
+OperationalStatusDownLowPowerState               : False
+OperationalStatusDownMediaDisconnected           : False
+PnPDeviceID                                      : ROOT\NET\000
+                                                   1
+PromiscuousMode                                  : False
+ReceiveLinkSpeed                                 : 1000000000
+State                                            : 2
+TransmitLinkSpeed                                : 1000000000
+Virtual                                          : True
+VlanID                                           :
+WdmInterface                                     : True
+PSComputerName                                   :
+MacAddress                                       : 0A-00-27-00-
+                                                   00-07
+LinkSpeed                                        : 1 Gbps
+MediaType                                        : 802.3
+PhysicalMediaType                                : 802.3
+AdminStatus                                      : Up
+MediaConnectionState                             : Connected
+DriverInformation                                : Driver Date
+                                                   2026-04-18
+                                                   Version
+                                                   7.2.8.23730
+                                                   NDIS 6.30
+DriverFileName                                   : VBoxNetAdp6.
+                                                   sys
+NdisVersion                                      : 6.30
+ifOperStatus                                     : Up
+ifAlias                                          : Ethernet
+InterfaceAlias                                   : Ethernet
+ifIndex                                          : 7
+ifDesc                                           : VirtualBox
+                                                   Host-Only
+                                                   Ethernet
+                                                   Adapter #2
+ifName                                           : ethernet_327
+                                                   73
+DriverVersion                                    : 7.2.8.23730
+LinkLayerAddress                                 : 0A-00-27-00-
+                                                   00-07
+
+
+
+
+PS C:\Users\HP> ping 127.0.0.1
+
+PS C:\Users\HP> ping 192.168.100.1
+
+PS C:\Users\HP> ping 1.1.1.1
+
+PS C:\Users\HP> nslookup punchng.com
+
+PS C:\Users\HP> Test-NetConnection punchng.com -Port 443
+
+
+ComputerName     : punchng.com
+RemoteAddress    : 172.66.167.143
+RemotePort       : 443
+InterfaceAlias   : Wi-Fi
+SourceAddress    : 192.168.100.34
+TcpTestSucceeded : True
+
+
+
+PS C:\Users\HP> stop-transcript
+**********************
+Windows PowerShell transcript end
+End time: 20261016133307
+**********************
